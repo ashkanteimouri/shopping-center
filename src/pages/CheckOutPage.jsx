@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { FaArrowLeftLong } from "react-icons/fa6";
 
 import BasketCard from "../components/BasketCard";
-import BasketSideBar from "../components/BasketSidebar";
+import BasketSideBar from "../components/BasketSideBar";
 
 import { useCart } from "../context/CartContext";
 
