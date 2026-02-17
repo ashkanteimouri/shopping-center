@@ -21,7 +21,13 @@ function Layout({ children }) {
       </header>
       {children}
       <footer className={styles.footer}>
-        <p>Developed by Ashkan Teimouri Gharb With 🤍</p>
+        <p>
+          Developed by{" "}
+          <a href="https://github.com/ashkanteimouri/shopping-center.git">
+            Ashkan Teimouri Gharb
+          </a>{" "}
+          With 🤍
+        </p>
       </footer>
     </>
   );

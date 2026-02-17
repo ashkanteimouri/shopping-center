@@ -55,3 +55,17 @@
   color: #fff;
   border-radius: 10px;
 }
+
+.footer a {
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.footer a:hover {
+  font-size: 1.5rem;
+  padding: 0 10px;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(254, 93, 66, 0.4);
+}
